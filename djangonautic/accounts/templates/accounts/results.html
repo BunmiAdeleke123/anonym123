@@ -1,0 +1,16 @@
+{% extends 'resultant.html' %}
+
+
+
+{%block table%}
+{%for name,result in t.items %}
+                    <tr>
+                      <td>{{name}}</td>
+                      <td>{{result}}</td>
+
+                    </tr>
+
+
+
+{%endfor%}
+{%endblock%}

@@ -1,0 +1,20 @@
+{% extends 'table.html' %}
+{% block table %}
+
+<form class= "site-form"  action="#" method="post">
+    {%csrf_token%}
+{% for bs in b %}
+                    <tr>
+                      <td>{{bs}}</td>
+                      <td><input type="checkbox" name="course" value={{bs}}></td>
+
+                    </tr>
+
+
+{%endfor%}
+    {% endblock %}
+    {% block but %}
+    <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+
+</form>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'table.html' %}
+
+{%block name%}
+<h3> Upload for "{{inf}}"successful</h3>
+{%endblock%}
+
+
+{%block table%}
+{%for name,result in f.items %}
+                    <tr>
+                      <td>{{name}}</td>
+                      <td>{{result}}</td>
+
+                    </tr>
+
+
+
+{%endfor%}
+{%endblock%}

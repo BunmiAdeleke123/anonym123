@@ -1,0 +1,15 @@
+{% extends 'admin.html'%}
+{% block table %}
+{%for alls in all%}
+<form action="" method="post">
+    {%csrf_token%}
+     <tr>
+          <td>
+    <input  hidden="m" type="text" name="course" value="{{alls}}"/>
+          <button class="btn btn-outline btn-block" value="MSE503" type="submit">{{alls}}</button></td>
+         </tr>
+
+    </form>
+
+{%endfor%}
+{%endblock%}

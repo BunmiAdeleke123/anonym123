@@ -1,0 +1,21 @@
+{% extends 'table.html' %}
+{%block table%}
+<form action="accounts/upload" method="post">
+    {%csrf_token%}
+    {%for key, value in l.items%}
+    <h2></h2>
+
+    <tr>
+        <td>{{key}}<input hidden="" value="{{key}}" name="people"></td>
+        <td><input type="text" value="{{value}}" name="result"/></td>
+
+    </tr>
+
+{%endfor%}
+    {%endblock%}
+    {%block but%}
+      <input class="btn btn-primary" type="submit"value="submit"/>
+    {%endblock%}
+
+</form>
+

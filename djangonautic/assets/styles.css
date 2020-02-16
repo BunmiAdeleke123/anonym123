@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    color:white;
+
+    }
+label{
+color:blue;
+margin:20px;
+
+}
+
+
+.sub{
+margin-top: 10px;
+}
+
+h1{
+color:#556877;
+}
+
+.bg-light{
+background-color:blue;
+}
+
+.helptext li{
+color:#556877;
+font: 0.5rem;
+}

@@ -1,0 +1,8 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+<h1>Articles List</h1>
+{%for articles in article%}
+    <a href="{% url 'details' slug=articles.slug %}">{{articles.title}}</a>
+        <aside>the date is {{articles.date}}</aside>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,67 @@
+.ab{
+background:url(/static/pics.jpg) no-repeat center center fixed;
+background-size: 100% 100%;
+width:100%;
+filter:blur(0.05px);
+-webkit-filter: blur(0.05px);
+height:350px;
+margin-top:10px;
+}
+
+.navbar{
+background-color:#17a2b8;
+margin-bottom:10px
+}
+
+
+.card{
+height: auto;
+
+margin-bottom: 10px;
+
+}
+.ft{
+margin-top: 50px;
+
+height:auto;
+font-size: 15px;
+padding-bottom: 60px;
+color: #556877;
+
+}
+.jumbotron{
+background-color:#F0FFF0;
+
+}
+.blockquote-footer{
+text-align:right;
+}
+.card{
+padding: 25px;
+background-color:#F0FFF0;
+margin-left:0px;
+}
+
+footer{
+margin-top:20px;
+background:url(/static/Deep.jpg) no-repeat center center fixed;
+
+width:100%;
+padding:50px;
+}
+
+li{
+text-decoration:none;
+color:white;
+list-style:none;
+}
+
+.card .btn-outline {
+border:1px solid #17a2b8;
+margin-bottom: 10px;
+}
+
+
+.navbar-toggler{
+background-color:#17a2b8;
+}
