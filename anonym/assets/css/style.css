@@ -1,0 +1,100 @@
+.site-form {
+padding-left: 20%;
+padding-bottom: 10%;
+padding-top: 5%;
+}
+label{
+display: block;
+}
+
+label[for="id_username"]{
+margin: 4px;
+color: ash;
+
+}
+label[for="id_password1"]{
+margin: 4px;
+color: ash;
+
+}
+label[for="id_password2"]{
+margin: 4px;
+color: ash;
+
+}
+.helptext{
+color: red;
+font-size: 0.9rem;
+
+margin-top: 0px;
+}
+
+.work{
+font-family: "Lobster";
+font-size: 20px;
+}
+
+.co{
+margin-top: 10%;
+color:#b2beb5;
+
+}
+.fu{
+
+font-size:0.9rem;}
+.k{
+color: white;
+margin: 2%;
+}
+.lu{
+ color:#747373;
+ font-weight: 400;
+font-size:1rem;}
+
+ul.errorlist{color: #b2beb5;
+font-size:0.9rem;
+padding: 0px;
+}
+label[for="id_password"]{
+margin: 4px;
+color: ash;
+}
+input{
+display: block;
+padding: 2%;
+color:#b2beb5;
+}
+input[type="text"]{
+border: 1px solid ash;
+border-radius:5px;
+width: 60%;
+color: ash;
+-webkit-transition:width 0.5s ease-in-out;
+transition:width 0.5s ease-in-out;
+}
+input[type="text"]:focus{
+width: 80%;}
+
+input[type="password"]{
+width: 60%;
+border: 1px solid ash;
+border-radius:5px;
+-webkit-transition:width 0.5s ease-in-out;
+transition:width 0.5s ease-in-out;
+}
+input[type="password"]:focus{
+width: 80%;}
+#pick{
+color: #b2beb5;
+padding: 6%;
+}
+.ben{
+color: #b2beb5;
+}
+.chat-footer{
+float: left;
+}
+
+#su{
+color: white;
+}

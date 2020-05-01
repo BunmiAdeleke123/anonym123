@@ -1,0 +1,20 @@
+{% extends "ext.html" %}
+{%load static%}
+{% block content %}
+
+
+<h4 class="co text-center " >Log In</h4>
+<form class= "site-form"  action="/user/login/" method="post" id="post-form">
+    {% csrf_token %}
+    {{form}}
+
+    {% if request.GET.next %}
+
+    <input type="hidden" name ="next" value="{{request.GET.next}}">
+
+    {% endif %}
+    <br/><input type="submit" class="btn rgba-black-strong" id="su" value="Log In">
+</form>
+{%endblock%}
+<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static './main.js' %}" type="text/javascript"></script>

@@ -1,0 +1,10 @@
+{% extends "ext.html" %}
+{%load static%}
+{% block content %}
+<h4 class="co text-center ">SignUp</h4><br/>
+<form class= "site-form"  action="/user/signup/" method="post" id="post-form">
+    {% csrf_token %}
+    {{form}}
+    <br/><input type="submit" class="btn btn-primary" value="Sign up">
+</form>
+{%endblock%}
